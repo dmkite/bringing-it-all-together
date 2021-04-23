@@ -1,5 +1,4 @@
 import './App.css'
-import {PokemonList} from './components/PokemonList'
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
         <h1>Pokemon</h1>
       </header>
       <article>
-        <PokemonList/>
+
       </article>
     </main>
   );
