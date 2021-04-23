@@ -1,12 +1,9 @@
-export default class HTTP {
-    async get(url) {
-        try {
-            const data = await fetch(url)
-            const json = await data.json()
-            return json
-        } catch (error) {
-            console.error(error)
-            return []
-        }
-    }
+import fakeData from './fakeData.json'
+
+export const http_get = async () => {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res(fakeData)
+        }, 1500)
+    })
 }
