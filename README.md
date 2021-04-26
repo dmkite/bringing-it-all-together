@@ -7,7 +7,7 @@ Here's what You'll need to do:
 - [ ] Create component that renders the following text:
 
 > Starter Pokémon are the first Pokémon a Trainer receives. Throug that Pokémon Trainers learn friendship and trust. As such, even advanced Trainers may still use their starter Pokémon, and they will often be the most powerful Pokémon on their respective teams.
-
+"
 - [ ] Export the component and render it in `App.js`
 
 
