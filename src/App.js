@@ -1,5 +1,6 @@
 import './App.css'
 import {PokemonList} from './components/PokemonList'
+import {Description} from './components/Description'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header>
         <h1>Pokemon</h1>
       </header>
+        <Description/>
       <article>
         <PokemonList/>
       </article>
