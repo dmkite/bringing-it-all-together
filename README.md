@@ -27,3 +27,8 @@ Here's what You'll need to do:
 - [ ] Add the pokemon's type as a `className`. (in the data it can be accessed using `types[0].type.name`
 - [ ] Add the pokemon's name to the `h2` tag (in the data it can be accessed using `name`)
 - [ ] Add the pokemon's picture as the image `src` (in the data it can be accessed using `sprites.other['official-artwork'].front_default`)
+
+
+At the end the app should look like this:
+
+![screenshot](./screenshot.png)
