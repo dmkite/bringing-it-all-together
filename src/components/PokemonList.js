@@ -8,12 +8,10 @@ export const PokemonList = () => {
     React.useEffect(() => {
         return http_get().then(data => setPokemon(data))
     }, [])
-    console.log(pokemon)
+
     return (
         pokemon && pokemon.length
             ? pokemon.map(p => <Pokemon {...p}/>)
             : 'Loading...'
-        
-        // <Pokemon {...pokemonData}/>
     )
 }
